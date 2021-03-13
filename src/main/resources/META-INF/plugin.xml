@@ -5,6 +5,8 @@
 
     <description>
         <![CDATA[
+        Note! This this custom version of the KeymapNationalizer plugin
+        with predefined rules for Universal Layout.
         Keymap nationalizer plugin.<br>
         "Generate National Keymap" action in "Search Everywhere" menu.<br>
         You can replace shortcuts in Keymap.<br>

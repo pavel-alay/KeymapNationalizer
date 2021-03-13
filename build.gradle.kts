@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.dekonoplyov"
-version = "0.2.6"
+version = "0.2.6ul"
 
 repositories {
     mavenCentral()
@@ -42,5 +42,7 @@ tasks {
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
     - Fix failed to parse % key. Update intellij version.
+    - Add mappings for Universal layout:
+     https://github.com/tonsky/Universal-Layout/
     """)
 }

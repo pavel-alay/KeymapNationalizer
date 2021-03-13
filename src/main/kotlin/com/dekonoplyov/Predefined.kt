@@ -8,6 +8,7 @@ class Predefined {
             "Italian" to ITALIAN,
             "Czech" to CZECH,
             "Other" to OTHER,
+            "UniversalLayout" to UNIVERSAL_LAYOUT,
             "Empty" to ""
     )
 
@@ -59,4 +60,18 @@ private const val OTHER = """; with ;
 \ with \
 ] with ]
 ' with '
+"""
+
+private const val UNIVERSAL_LAYOUT = """; with ${'$'}
+' with ^
+\ with "
+/ with &
+` with '
+1 with !
+3 with #
+4 with ;
+6 with :
+8 with *
+9 with (
+0 with )
 """
